@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../components/SearchPage.css';
 import { useDispatch } from 'react-redux'
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';

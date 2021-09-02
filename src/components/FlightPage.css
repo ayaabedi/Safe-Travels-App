@@ -1,0 +1,19 @@
+.flights {
+    color: black;
+    margin-top: 2vh;
+    
+}
+
+.flight {
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-bottom: 2vh;
+}
+
+#sortSelect {
+    width: 13vw;
+    margin-right: 1vw;
+}
+

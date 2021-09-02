@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import '../components/FlightPage.css';
 import { FloatingLabel, Form } from 'react-bootstrap'
 import { useSelector } from 'react-redux'
 import Flight from '../components/Flight'
+
+
 
 function FlightsPage() {
 
@@ -26,7 +29,7 @@ function FlightsPage() {
     return (
         <div className="flights">
             <FloatingLabel controlId="floatingSelect" label="Sort By">
-            <Form.Select size='sm' onChange={onChange} aria-label="sort by label">
+            <Form.Select id="sortSelect" size='sm' onChange={onChange} aria-label="sort by label">
                 <option>Sort By</option>
                 <option value="desc">Price High to Low</option>
                 <option value="asc">Price Low to High</option>
