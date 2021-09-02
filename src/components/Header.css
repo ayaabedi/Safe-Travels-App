@@ -1,0 +1,19 @@
+#logo {
+    padding-right: 10px;
+    max-width: 180px;
+}
+
+.header {
+    min-height: 10vh;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* #title {
+    color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+} */

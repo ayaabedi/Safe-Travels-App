@@ -1,16 +1,22 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-// import Logo  from "../components/images/logo.jpeg"
+import Logo  from "../components/images/logo2.png"
+import "./Header.css"
+
 
 
 function Header(props) {
     return (
-        <Navbar bg="primary" variant="dark">
+        // <div className="header">
+     <Navbar className="header">
     <Container>
-    <Navbar.Brand href="#">
-        <Link to="/">Brand</Link>
+    <Navbar.Brand id="logo" href="#">
+        <Link to="/"><img id="logo" src={Logo} alt="logo" />
+        </Link>
     </Navbar.Brand>
+    
+                {/* <h1 id="title">{props.title}</h1> */}
     <Nav className="me-auto">
       <Nav.Link as={Link} to="/">
         Home
@@ -24,6 +30,9 @@ function Header(props) {
     </Nav>
     </Container>
   </Navbar>
+
+
+//   </div>
     )
 }
 
